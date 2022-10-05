@@ -1,0 +1,3 @@
+## Technologies
+* Flask
+* mysql.connector
