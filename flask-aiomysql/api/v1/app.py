@@ -1,3 +1,6 @@
+"""Flask app
+"""
+
 import threading
 from flask import Flask
 from api.v1.views import app_views
@@ -13,4 +16,4 @@ app.register_blueprint(app_views)
 #   await storage.close()
 
 if __name__ == '__main__':
-  app.run(port=5000, debug=True, threaded=True)
+    app.run(port=5000, debug=True, threaded=True)
